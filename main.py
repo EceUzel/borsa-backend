@@ -5,6 +5,9 @@ import yfinance as yf
 
 app = FastAPI()
 
+@app.get("/")
+def home():
+    return {"status": "OK"}
 # CORS ayarları
 app.add_middleware(
     CORSMiddleware,
