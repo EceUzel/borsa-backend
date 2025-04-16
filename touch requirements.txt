@@ -1,4 +1,6 @@
 fastapi
 uvicorn
 requests
+pydantic
+yfinance
 beautifulsoup4
